@@ -10,73 +10,148 @@
     
 </head>
 <body>
+    <!--Logo do restaurante-->
     <div id="cabecalho">
         <img src="images/LOGO FINALIZADA.png" alt="Logo" id="img-logo">
     </div>
 
     <main>
         <h2>Pizza</h2>
+
+        <!--Cardápio de Pizzas-->
         <div id="cardapio-pizza">
 
             <p class="titulo">Mussarela</p>
             <img src="images/mussarela.jpg" alt="Mussarela">
             <p class="ingredientes">Ingredientes: Mussarela, Tomate, Oregano e Azeitona</p>
-            <p class="tamanho">Média....................................................R$30,50</p>
-            <p class="tamanho">Grande...................................................R$40,50</p>
-            <div class="contador">
-                <div class="cont" onclick="menos()">-</div><p class="quantidade">0</p><div class="cont" onclick="mais()">+</div>
+            <p class="tamanho">Média................R$30,50</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir()">
+                <input type="number" name="quantidade" id="quantidade" min="0" value="0">
+                <input type="button" class="btn" value="+" onclick="aumentar()">
+            </div>
+            <p class="tamanho">Grande.............R$40,50</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir()">
+                <input type="number" name="quantidade" id="quantidade" min="0" value="0">
+                <input type="button" class="btn" value="+" onclick="aumentar()">
             </div>
 
             <p class="titulo">Frango com Catupiry</p>
             <img src="images/catupiry.png" alt="Frango">
             <p class="ingredientes">Ingredientes: Mussarela, Frango, Cebola, Catupiry, Oregano e Azeitona</p>
-            <p class="tamanho">Média</p>
-            <p class="preco">R$44,99</p>
-            <p class="tamanho">Grande</p>
-            <p class="preco">R$54,99</p>
-            <input type="text" size="2" minlength="1" maxlength="2" placeholder="1" name="qtd" id="qtd">
+            <p class="tamanho">Média................R$44,99</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir()">
+                <input type="number" name="quantidade" id="quantidade" min="0" value="0">
+                <input type="button" class="btn" value="+" onclick="aumentar()">
+            </div>
+            <p class="tamanho">Grande.............R$54,99</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir()">
+                <input type="number" name="quantidade" id="quantidade" min="0" value="0">
+                <input type="button" class="btn" value="+" onclick="aumentar()">
+            </div>
 
             <p class="titulo">Portuguesa</p>
             <img src="images/portuguesa.jpg" alt="Portuguesa">
             <p class="ingredientes">Ingredientes: Mussarela, Presunto, Calabresa, Ervilha, Bacon, Cebola, Pimentão, Oregano, Tomate e Azeitona Preta</p>
-            <p class="tamanho">Média</p>
-            <p class="preco">R$55,99</p>
-            <p class="tamanho">Grande</p>
-            <p class="preco">R$65,99</p>
-            <input type="text" size="2" minlength="1" maxlength="2" placeholder="1" name="qtd" id="qtd">
+            <p class="tamanho">Média................R$55,99</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir()">
+                <input type="number" name="quantidade" id="quantidade" min="0" value="0">
+                <input type="button" class="btn" value="+" onclick="aumentar()">
+            </div>
+            <p class="tamanho">Grande.............R$65,99</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir()">
+                <input type="number" name="quantidade" id="quantidade" min="0" value="0">
+                <input type="button" class="btn" value="+" onclick="aumentar()">
+            </div>
 
             <p class="titulo">Calabresa</p>
             <img src="images/calabresa.png" alt="Calabresa">
             <p class="ingredientes">Ingredientes: Mussarela, Calabresa, Cebola, Oregano, Tomate e Azeitona</p>
-            <p class="tamanho">Média</p>
-            <p class="preco">R$40,00</p>
-            <p class="tamanho">Grande</p>
-            <p class="preco">R$50,00</p>
-            <input type="text" size="2" minlength="1" maxlength="2" placeholder="1" name="qtd" id="qtd">
+            <p class="tamanho">Média................R$40,00</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir()">
+                <input type="number" name="quantidade" id="quantidade" min="0" value="0">
+                <input type="button" class="btn" value="+" onclick="aumentar()">
+            </div>
+            <p class="tamanho">Grande.............R$50,00</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir()">
+                <input type="number" name="quantidade" id="quantidade" min="0" value="0">
+                <input type="button" class="btn" value="+" onclick="aumentar()">
+            </div>
         </div>
 
         <h2>Bebidas</h2>
+
+        <!--Cardápio de Bebidas-->
         <div id="cardapio-bebida">
 
             <p class="titulo">Água 500ml</p>
-            <input type="text" size="2" minlength="1" maxlength="2" placeholder="1" name="qtd" id="qtd">
             <p class="preco">R$4,00</p>
+            <!--Controle de quantidade-->v
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir()">
+                <input type="number" name="quantidade" id="quantidade" min="0" value="0">
+                <input type="button" class="btn" value="+" onclick="aumentar()">
+            </div>
 
             <p class="titulo">Coca-Cola 2L</p>
-            <input type="text" size="2" minlength="1" maxlength="2" placeholder="1" name="qtd" id="qtd">
             <p class="preco">R$10,00</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir()">
+                <input type="number" name="quantidade" id="quantidade" min="0" value="0">
+                <input type="button" class="btn" value="+" onclick="aumentar()">
+            </div>
 
             <p class="titulo">Fanta Laranja 1L</p>
-            <input type="text" size="2" minlength="1" maxlength="2" placeholder="1" name="qtd" id="qtd">
             <p class="preco">R$7,00</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir()">
+                <input type="number" name="quantidade" id="quantidade" min="0" value="0">
+                <input type="button" class="btn" value="+" onclick="aumentar()">
+            </div>
             
             <p class="titulo">Suco Natural 1L</p>
-            <input type="text" size="2" minlength="1" maxlength="2" placeholder="1" name="qtd" id="qtd">
-            <input type="checkbox" name="Laranja" selected>Laranja</option>
-            <input type="checkbox" name="Maracujá">Maracujá</option>
-            <input type="checkbox" name="Abacaxi">Abacaxi</option>
-            <p class="preco">R$10,00</p>
+            <p class="preco">R$10,00</p> <br>
+            <input type="checkbox" name="Laranja" class="sabor_suco">Laranja</option>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir()">
+                <input type="number" name="quantidade" id="quantidade" min="0" value="0">
+                <input type="button" class="btn" value="+" onclick="aumentar()">
+            </div> <br>
+            <input type="checkbox" name="Maracujá" class="sabor_suco">Maracujá</option>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir()">
+                <input type="number" name="quantidade" id="quantidade" min="0" value="0">
+                <input type="button" class="btn" value="+" onclick="aumentar()">
+            </div> <br>
+            <input type="checkbox" name="Abacaxi" class="sabor_suco">Abacaxi</option>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir()">
+                <input type="number" name="quantidade" id="quantidade" min="0" value="0">
+                <input type="button" class="btn" value="+" onclick="aumentar()">
+            </div>
         </div>
+        <!--Botão de confirmação das escolhas-->
+        <input type="button" value="Próximo" class="proximo">
     </main>
     <script src="script.js"></script>
 </body>

@@ -56,28 +56,54 @@ main > h2{
     font-size: 0.5em;
 }
 
-.preco{
-    text-align: right;
+.tamanho{
+    display: inline;
 }
 
-.cont{
+.botao-de-quantidade{
     display: inline;
+    justify-content: right;
+    margin: 20px;
+}
+
+.btn{
+    width: 20px;
+    text-align: center;
+    font-weight: bolder;
     background-color: red;
-    padding: 5px;
-    padding-top: 0.1px;
-    padding-bottom: 0.1px;
-    border-radius: 5px;
+    color: white;
+    border: none;
+    border-radius: 2px;
 }
 
-.contador{
-    margin-top: 10px;
-    margin-bottom: 10px;
+input#quantidade{
+    width: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: solid 1px gray;
 }
 
-.quantidade{
+.preco{
     display: inline;
-    border-radius: none;
-    border: solid 0.5px gray;
+}
+
+.sabor_suco{
+    display: inline;
+}
+
+.proximo{
+    width: 100px;
+    height: 25px;
+    padding: 0;
+    margin: 20px;
+    margin-left: 110px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
 }
 
 img{

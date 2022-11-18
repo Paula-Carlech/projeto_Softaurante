@@ -1,8 +1,11 @@
-var qtd = 0;
+function aumentar(){
+    var qtd = document.getElementById("quantidade").value;
+    qtd++;
+    document.getElementById("quantidade").value = qtd
+}
 
-qtd = document.getElementsByClassName("quantidade").innerText = qtd;
-
-function menos(){
-    qtd = qtd - 1;
-    document.getElementsByClassName("quantidade").innerText = qtd;
+function diminuir(){
+    var qtd = document.getElementById("quantidade").value;
+    qtd--;
+    document.getElementById("quantidade").value = qtd
 }
