@@ -25,9 +25,13 @@ div#cabecalho{
    margin: 10px;
 }
 
+img#img-logo{
+    width: 200px;
+}
+
 main{
     position: absolute;
-    top: 95%;
+    top: 105%;
     left: 50%;
     width: 80vw;
     font-family: 'Merienda', cursive;
@@ -52,8 +56,70 @@ main > h2{
     font-size: 1.2em;
 }
 
+.img_pizza_mussarela{
+    background: url(images/mussalera.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80vw;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.650);
+}
+
+.img_pizza_catupiry{
+    background: url(images/catupiry.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80vw;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.650);
+}
+
+.img_pizza_portuguesa{
+    background: url(images/portuguesa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80vw;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.650);
+}
+
+.img_pizza_calabresa{
+    background: url(images/calabresa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80vw;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.650);
+}
+
 .ingredientes{
-    font-size: 0.5em;
+    font-size: 0.6em;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .tamanho{
@@ -97,6 +163,7 @@ input#quantidade{
     height: 25px;
     padding: 0;
     margin: 20px;
+    margin-bottom: 5px;
     margin-left: 110px;
     text-align: center;
     font-weight: bolder;
