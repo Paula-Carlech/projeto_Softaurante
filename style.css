@@ -26,7 +26,7 @@ div#cabecalho{
 }
 
 img#img-logo{
-    width: 150px;
+    width: 100px;
 }
 
 main{
@@ -142,7 +142,7 @@ main > h2{
     border-radius: 2px;
 }
 
-input#quantidade{
+.input_quantidade{
     width: 20px;
     margin: 0;
     padding: 0;
