@@ -21,7 +21,7 @@ html, body{
 div#cabecalho{
    display: flex;
    justify-content: center;
-   margin: 10px;
+   padding: 10px;
 }
 
 img#img-logo{
