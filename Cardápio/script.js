@@ -184,3 +184,11 @@ function diminuir_abacaxi(){
     qtd--;
     document.getElementById("quantidade_abacaxi").value = qtd
 }
+
+/*Salvar itens escolhidos do cardápio*/ 
+var btnProximo = document.querySelector('.proximo');
+
+btnProximo.addEventListener('click', function(){
+    var MussarelaM = document.querySelector("#quantidade_mussarelaM").value;
+    localStorage.setItem('mussarelaM', MussarelaM);
+})
