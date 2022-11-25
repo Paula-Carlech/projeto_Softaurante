@@ -1,5 +1,6 @@
-var pedido = document.querySelector("#pedido");
+var btnVerPedido = document.querySelector("#verPedido");
 
-addEventListener("unload", function(){
+btnVerPedido.addEventListener("click", function(){
+    var pedido = document.querySelector("#pedido");
     pedido.textContent = localStorage.getItem('MussarelaM');
 })
