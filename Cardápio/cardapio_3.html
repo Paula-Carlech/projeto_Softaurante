@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Softaurant</title>
+    <link rel="stylesheet" href="../Cardápio/style.css">
+    <link rel="shortcut icon" href="../images/ICON.png" type="image/x-icon">
+    
+</head>
+<body>
+    <!--Logo do restaurante-->
+    <div id="cabecalho">
+        <img src="../images/LOGO FINALIZADA.png" alt="Logo" id="img-logo">
+    </div>
+
+    <main>
+        <h2>Pizza</h2>
+
+        <!--Cardápio de Pizzas-->
+        <div id="cardapio-pizza">
+
+            <p class="titulo">Mussarela</p>
+            <div class="img_pizza_mussarela"></div>
+            <p class="ingredientes">Ingredientes: Mussarela, Tomate, Oregano e Azeitona</p>
+            <p class="tamanho">Média................R$30,50</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir_mussarelaM()">
+                <input type="number" name="quantidade_mussarelaM" id="quantidade_mussarelaM" min="0" value="0" class="input_quantidade">
+                <input type="button" class="btn" value="+" onclick="aumentar_mussarelaM()">
+            </div>
+            <p class="tamanho">Grande.............R$40,50</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir_mussarelaG()">
+                <input type="number" name="quantidade_mussarelaG" id="quantidade_mussarelaG" min="0" value="0" class="input_quantidade">
+                <input type="button" class="btn" value="+" onclick="aumentar_mussarelaG()">
+            </div>
+
+            <p class="titulo">Frango com Catupiry</p>
+            <div class="img_pizza_catupiry"></div>
+            <p class="ingredientes">Ingredientes: Mussarela, Frango, Cebola, Catupiry, Oregano e Azeitona</p>
+            <p class="tamanho">Média................R$44,99</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir_catupityM()">
+                <input type="number" name="quantidade" id="quantidade_catupityM" min="0" value="0" class="input_quantidade">
+                <input type="button" class="btn" value="+" onclick="aumentar_catupityM()">
+            </div>
+            <p class="tamanho">Grande.............R$54,99</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir_catupityG()">
+                <input type="number" name="quantidade" id="quantidade_catupityG" min="0" value="0" class="input_quantidade">
+                <input type="button" class="btn" value="+" onclick="aumentar_catupityG()">
+            </div>
+
+            <p class="titulo">Portuguesa</p>
+            <div class="img_pizza_portuguesa"></div>
+            <p class="ingredientes">Ingredientes: Mussarela, Presunto, Calabresa, Ervilha, Bacon, Cebola, Pimentão, Oregano, Tomate e Azeitona Preta</p>
+            <p class="tamanho">Média................R$55,99</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir_portuguesaM()">
+                <input type="number" name="quantidade" id="quantidade_portuguesaM" min="0" value="0" class="input_quantidade">
+                <input type="button" class="btn" value="+" onclick="aumentar_portuguesaM()">
+            </div>
+            <p class="tamanho">Grande.............R$65,99</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir_portuguesaG()">
+                <input type="number" name="quantidade" id="quantidade_portuguesaG" min="0" value="0" class="input_quantidade">
+                <input type="button" class="btn" value="+" onclick="aumentar_portuguesaG()">
+            </div>
+
+            <p class="titulo">Calabresa</p>
+            <div class="img_pizza_calabresa"></div>
+            <p class="ingredientes">Ingredientes: Mussarela, Calabresa, Cebola, Oregano, Tomate e Azeitona</p>
+            <p class="tamanho">Média................R$40,00</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir_calabresaM()">
+                <input type="number" name="quantidade" id="quantidade_calabresaM" min="0" value="0" class="input_quantidade">
+                <input type="button" class="btn" value="+" onclick="aumentar_calabresaM()">
+            </div>
+            <p class="tamanho">Grande.............R$50,00</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir_calabresaG()">
+                <input type="number" name="quantidade" id="quantidade_calabresaG" min="0" value="0" class="input_quantidade">
+                <input type="button" class="btn" value="+" onclick="aumentar_calabresaG()">
+            </div>
+        </div>
+
+        <h2>Bebidas</h2>
+
+        <!--Cardápio de Bebidas-->
+        <div id="cardapio-bebida">
+
+            <p class="titulo">Água 500ml</p>
+            <p class="preco">R$4,00</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir_agua()">
+                <input type="number" name="quantidade" id="quantidade_agua" min="0" value="0" class="input_quantidade">
+                <input type="button" class="btn" value="+" onclick="aumentar_agua()">
+            </div>
+
+            <p class="titulo">Coca-Cola 2L</p>
+            <p class="preco">R$10,00</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir_coca()">
+                <input type="number" name="quantidade" id="quantidade_coca" min="0" value="0" class="input_quantidade">
+                <input type="button" class="btn" value="+" onclick="aumentar_coca()">
+            </div>
+
+            <p class="titulo">Fanta Laranja 1L</p>
+            <p class="preco">R$7,00</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir_fanta()">
+                <input type="number" name="quantidade" id="quantidade_fanta" min="0" value="0" class="input_quantidade">
+                <input type="button" class="btn" value="+" onclick="aumentar_fanta()">
+            </div>
+            
+            <p class="titulo">Suco Natural 1L</p>
+            <p class="preco">R$10,00</p> <br>
+            <p class="sabor_suco">Laranja</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir_laranja()">
+                <input type="number" name="quantidade" id="quantidade_laranja" min="0" value="0" class="input_quantidade">
+                <input type="button" class="btn" value="+" onclick="aumentar_laranja()">
+            </div> <br>
+            <p class="sabor_suco">Maracujá</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir_maracuja()">
+                <input type="number" name="quantidade" id="quantidade_maracuja" min="0" value="0" class="input_quantidade">
+                <input type="button" class="btn" value="+" onclick="aumentar_maracuja()">
+            </div> <br>
+            <p class="sabor_suco">Abacaxi</p>
+            <!--Controle de quantidade-->
+            <div class="botao-de-quantidade">
+                <input type="button" class="btn" value="-" onclick="diminuir_abacaxi()">
+                <input type="number" name="quantidade" id="quantidade_abacaxi" min="0" value="0" class="input_quantidade">
+                <input type="button" class="btn" value="+" onclick="aumentar_abacaxi()">
+            </div>
+        </div>
+        <!--Botão de confirmação das escolhas-->
+        <a href="../Página de pedido/pedido_mesa_3.html"><input type="button" value="Confirmar" class="conf"></a>
+        <input type="button" value="Chamar garçon" class="garcon" onclick="chamar_garcon()">
+    </main>
+    <script src="../Cardápio/script.js"></script>
+</body>
+</html>
