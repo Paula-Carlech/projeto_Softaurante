@@ -102,3 +102,8 @@ function Avaliar(estrela) {
     
     document.getElementById('rating').innerHTML = avaliacao;
 }
+
+/*Botão de avaliação*/
+function avaliar(){
+    window.alert('Avaliação enviada com sucesso!');
+}
