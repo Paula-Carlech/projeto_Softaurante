@@ -100,6 +100,7 @@ button#cancelar_pedido{
 }
 
 footer{
+    font-size: smaller;
     position: absolute;
     top: 95%;
     left: 50%;
