@@ -185,6 +185,11 @@ function diminuir_abacaxi(){
     document.getElementById("quantidade_abacaxi").value = qtd
 }
 
+/*Botão de chamar o garçon*/
+function chamar_garcon(){
+    window.alert('Garçon solicitado. Aguarde um momento.');
+}
+
 /*Salvar itens escolhidos do cardápio*/ 
 var btnProximo = document.querySelector('.proximo');
 

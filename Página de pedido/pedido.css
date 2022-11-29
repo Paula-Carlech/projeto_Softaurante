@@ -78,16 +78,35 @@ input{
 }
 
 button{
+    display: inline;
     width: 90px;
     height: 25px;
     padding: 0;
     margin: 20px;
     margin-bottom: 5px;
-    margin-left: 120px;
+    margin-left: 52px;
     text-align: center;
     font-weight: bolder;
     background-color: red;
     color: white;
     border: none;
     border-radius: 3px;
+}
+
+button#cancelar_pedido{
+    display: inline;
+    width: 115px;
+    margin: 0;
+}
+
+footer{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border: solid 0.5px white;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
 }

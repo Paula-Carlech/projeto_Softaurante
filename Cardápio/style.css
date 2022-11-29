@@ -157,19 +157,34 @@ main > h2{
     display: inline;
 }
 
-.proximo{
+.conf{
+    display: inline;
     width: 100px;
     height: 25px;
     padding: 0;
     margin: 20px;
     margin-bottom: 5px;
-    margin-left: 115px;
+    margin-left: 50px;
     text-align: center;
     font-weight: bolder;
     background-color: red;
     color: white;
     border: none;
     border-radius: 3px;
+}
+
+.garcon{
+    display: inline;
+    width: 115px;
+    height: 25px;
+    padding: 0;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px; 
 }
 
 img{
