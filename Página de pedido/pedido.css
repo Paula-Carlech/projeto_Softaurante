@@ -43,15 +43,24 @@ main{
 }
 
 main > h2{
-    font-size: 1.5em;
+    font-size: 2em;
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
 }
 
-p{
-    display: inline;
-    font-size: 2em;
+p#pedido{
+    display: block;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2em;
+}
+
+b{
+    display: inline-block;
+    text-align: right;
+    justify-content: right;
+    
 }
 
 div#valor{
@@ -59,18 +68,34 @@ div#valor{
     margin: 0;
 }
 
+p#total{
+    display: inline;
+    font-size: 2em;
+    margin: 0;
+    padding: 5px;
+}
+
 p#valor_total{
     display: inline;
     text-align: right;
     justify-content: right;
-    margin-left: 105px;
+    padding: 5px;
+    margin: 0;
+    margin-left: 65px;
     font-size: 2.3em;
     color: red;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+label{
+    display: block;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
 input{
-    height: 25px;
+    height: 10vh;
+    width: 80vw;
     margin: auto;
     padding: 0;
     text-align: left;
@@ -100,9 +125,9 @@ button#cancelar_pedido{
 }
 
 footer{
-    font-size: smaller;
+    font-size: small;
     position: absolute;
-    top: 95%;
+    top: 85%;
     left: 50%;
     color: white;
     background-color: black;

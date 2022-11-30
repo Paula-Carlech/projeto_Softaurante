@@ -16,16 +16,20 @@
 
     <main>
         <h2>Resumo do Pedido</h2>
-        <p id="pedido"></p>
+        <p id="pedido">
+            1 Pizza Mussarela M - <b>R$30,50</b> <br>
+            1 Pizza Portuguesa M - <b>R$55,99</b> <br>
+            2 Água Mineral 500ml - <b>R$8,00</b> <br>
+            1 Coca Cola 2L - <b>R$10,00</b>
+        </p>
         <div id="valor">
-            <p>Total:</p>
-            <p id="valor_total">R$00,00</p>
+            <p id="total">Total:</p>
+            <p id="valor_total">R$104,49</p>
         </div> <br>
         <label for="obs">Observações: </label>
         <input type="text" name="obs" id="obs" size="25">
         <a href="../Página de avaliação/avaliacao.html"><button>Concluir</button></a>
         <button id="cancelar_pedido" onclick="cancelar_pedido()">Cancelar pedido</button>
-        <button id="verPedido">Ver Pedido</button>
     </main>
 
     <footer>
