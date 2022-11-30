@@ -30,7 +30,7 @@ img#img-logo{
 
 main{
     position: absolute;
-    top: 105%;
+    top: 130%;
     left: 50%;
     width: 80vw;
     font-family: 'Merienda', cursive;
@@ -106,6 +106,51 @@ main > h2{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    width: 80vw;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.650);
+}
+
+.img_agua{
+    background: url(../images/agua.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    width: 80vw;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.650);
+}
+
+.img_coca{
+    background: url(../images/coca.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    width: 80vw;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.650);
+}
+
+.img_fanta{
+    background: url(../images/fanta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
     width: 80vw;
     height: 100px;
     margin-top: 10px;
