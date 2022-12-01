@@ -187,7 +187,7 @@ function diminuir_abacaxi(){
 
 /*Botão de chamar o garçon*/
 function chamar_garcon(){
-    window.alert('Garçon solicitado. Aguarde um momento.');
+    window.alert('Garçom solicitado. Aguarde um momento.');
 }
 
 /*Salvar itens escolhidos do cardápio*/ 
