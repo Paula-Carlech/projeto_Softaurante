@@ -30,7 +30,7 @@ img#img-logo{
 
 main{
     position: absolute;
-    top: 130%;
+    top: 150%;
     left: 50%;
     width: 80vw;
     font-family: 'Merienda', cursive;
@@ -160,6 +160,51 @@ main > h2{
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.650);
 }
 
+.img_laranja{
+    background: url(../images/laranja.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    width: 80vw;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.650);
+}
+
+.img_maracuja{
+    background: url(../images/maracuja.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    width: 80vw;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.650);
+}
+
+.img_abacaxi{
+    background: url(../images/abacaxi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    width: 80vw;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.650);
+}
+
 .ingredientes{
     font-size: 0.6em;
     margin-top: 10px;
@@ -196,6 +241,7 @@ main > h2{
 
 .preco{
     display: inline;
+    font-weight: bold;
 }
 
 .sabor_suco{
